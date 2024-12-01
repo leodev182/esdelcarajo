@@ -268,7 +268,12 @@ a {
 }
 .githubid {
   font-size: calc(20 * var(--px));
+  display: flex;
 }
 h3 {
   font-size: calc(15 * var(--px));
+}
+
+.advice {
+  margin-top: 80px;
 }

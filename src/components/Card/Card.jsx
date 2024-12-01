@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Countdown } from "../index.js";
+
 import "./card.css";
 
 export const Card = () => {
@@ -100,14 +104,17 @@ export const Card = () => {
           <div className="data">
             <p className="name">DELCARAJO⚡</p>
             <p className="githubid">
+              <FontAwesomeIcon
+                icon={faInstagram}
+                size="1x"
+                style={{ marginRight: "8px", marginTop: "3px" }}
+              />
               <a href="https://www.instagram.com/esdelcarajo/">@esdelcarajo</a>
             </p>
           </div>
+          <h3 className="advice">PROXIMAMENTE EN:</h3>
           <aside className="divider">
-            <div>
-              <img src="rayitohd.svg" alt="Rayo" />
-              <h3>Proximamente</h3>
-            </div>
+            <Countdown />
           </aside>
         </section>
       </section>
