@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+#countdown {
+  width: 50vw;
+}
+
+#timer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* Aplica solo al componente */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+.timerBox {
+  font-size: 1.6vw;
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  #timer {
+    /* Ajusta el tamaño para pantallas grandes */
+    text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; /* Aumenta el efecto del sombra */
+  }
+
+  .timerBox {
+    font-size: 0.8vw;
+  }
+}
