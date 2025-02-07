@@ -1,10 +1,10 @@
 import "./App.css";
-import { Card } from "./components/index.js";
+import Home from "./views/Home";
 
 function App() {
   return (
     <>
-      <Card />
+      <Home />
     </>
   );
 }
