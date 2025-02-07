@@ -1,5 +1,5 @@
 html {
-  --zoom: 120;
+  --zoom: 100;
   --green: #37996b;
   --neon: #3ecf8e;
 }
@@ -59,13 +59,6 @@ a {
   --r: 0;
   transform: translate3d(0, 0, 0.1px);
 }
-
-/* .ticket {
-  --scale: 1;
-  transform: translate3d(0, 0, 0.1px) scale(var(--scale)) rotateY(var(--r));
-  transform-style: preserve-3d;
-  pointer-events: auto;
-} */
 
 .ticket {
   --scale: 1;

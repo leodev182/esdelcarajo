@@ -1,0 +1,23 @@
+.home-container {
+  display: grid;
+  grid-template-rows: 10vh auto;
+  grid-template-areas:
+    "nav"
+    "card";
+  height: 100vh;
+  margin: 0;
+}
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  grid-area: card;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
