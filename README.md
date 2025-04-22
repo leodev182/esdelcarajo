@@ -10,7 +10,7 @@ Vender camisetas/poleras customizadas con estilo rock alternativo a través de u
 | Tipo de usuario | Descripción | Acceso especial |
 |-----------------|-------------|-----------------|
 | Cliente         | Persona que explora y compra productos | Registro obligatorio con alias único |
-| Admin Ventas    | Dueño (mi primo) que gestiona pedidos y stock | Panel privado |
+| Admin Ventas    | Dueño (Jose R) que gestiona pedidos y stock | Panel privado |
 | Admin Respaldo  | Usuario secundario con mismos permisos | Panel privado |
 | Dev Tester      | Usuario técnico para testeo y control | Panel privado |
 
