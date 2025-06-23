@@ -1,10 +1,19 @@
 import React from "react";
 import "./logo.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 export const Logo = () => {
   return (
-    <div className="container">
-      <img src="/noneNsola.svg" alt="LogoNone" className="logoImg" />
-    </div>
+    <a
+      href="https://wa.me/584142814777"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="icon-sheen"
+      aria-label="Contactar por WhatsApp"
+    >
+      <FontAwesomeIcon icon={faSquareWhatsapp} size="2x" color="#25D366" />
+    </a>
   );
 };
