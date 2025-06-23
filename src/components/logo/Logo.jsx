@@ -7,7 +7,7 @@ import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export const Logo = () => {
   return (
     <a
-      href="https://wa.me/584142814777"
+      href="https://wa.me/584123689263"
       target="_blank"
       rel="noopener noreferrer"
       className="icon-sheen"
